@@ -1,0 +1,60 @@
+/* Styles pour le corps de la page */
+body {
+    background-color: #23242a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fa4454;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+/* Styles pour le titre de la page */
+h1 {
+    text-align: center;
+    color: #fa4454;
+    font-weight: bold;
+}
+
+/* Styles pour la liste à puces */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Styles pour chaque élément de liste */
+li {
+    box-sizing: border-box;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styles pour les images dans chaque élément de liste */
+li img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Styles pour les titres de chaque élément de liste */
+li h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Styles pour les descriptions de chaque élément de liste */
+li p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
