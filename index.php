@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require "controller/navigation.php";
+require "controler/navigation.php";
 
 if (isset($_GET['action'])) {
   $action = $_GET['action'];
