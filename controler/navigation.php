@@ -56,3 +56,20 @@ function displayLogin(){
         require "view/login.php";
     }
 }
+
+function displayPassword(){
+    try {
+        require_once "controler/navigation.php";
+    } finally {
+        require "view/password.php";
+    }
+}
+
+function displayRegister(){
+    try {
+        require_once "controler/navigation.php";
+    } finally {
+        require "view/register.php";
+    }
+}
+

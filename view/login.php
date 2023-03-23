@@ -1,6 +1,6 @@
 <?php
 /**
- * @file login.php
+ * @file connect.php
  * @brief File description
  * @author Created by Matteo.DA-CUNHA
  * @version 08.03.2023
@@ -19,13 +19,13 @@ $title ="Valoblog - Se Connecter";
         <link rel="shortcut icon" href="https://i.scdn.co/image/ab6761610000e5ebf777c8d6f705fa1e32f75b86"/>
     </head>
     <body>
-    <form method="post" action="../login.php">
+    <form method="post" action="../connect.php">
         <div class="box">
             <div class="form">
                 <h2>Se Connecter</h2>
                 <div class="inputBox">
                     <label for="nom">E-Mail</label>
-                    <input type="text" id="nom" name="nom" required="required">
+                    <input type="email" id="nom" name="nom" required="required">
                     <i></i>
                 </div>
                 <div class="inputBox">
@@ -34,8 +34,8 @@ $title ="Valoblog - Se Connecter";
                     <i></i>
                 </div>
                 <div class="links">
-                    <a href="#">Mot de passe oublié ?</a>
-                    <a href="register.php">S'inscrire</a>
+                    <a href="index.php?action=displayPassword">Mot de passe oublié ?</a>
+                    <a href="index.php?action=displayRegister">S'inscrire</a>
                 </div>
                 <input type="submit" value="Login">
             </div>

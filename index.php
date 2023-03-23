@@ -24,6 +24,12 @@ if (isset($_GET['action'])) {
       case 'displayLogin':
           displayLogin();
           break;
+      case 'displayPassword':
+          displayPassword();
+          break;
+      case 'displayRegister':
+          displayRegister();
+          break;
       default :
           home();
       }

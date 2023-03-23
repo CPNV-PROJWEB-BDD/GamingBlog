@@ -24,7 +24,7 @@ if ($connected) {
     header("Location: index.php");
     exit();
 } else {
-    header("Location: login.php?error=" . urlencode($error_message));
+    header("Location: connect.php?error=" . urlencode($error_message));
     exit();
 }
 ?>
