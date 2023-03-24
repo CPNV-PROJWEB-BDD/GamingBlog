@@ -140,7 +140,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fa4454;
+		color: #ffffff;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
@@ -1675,19 +1675,19 @@ input, select, textarea {
 .modal-content {
 	background-color: #2f2f2f;
 	margin: auto;
-	padding: 20px;
+	padding: 100px;
 	border: 1px solid #888;
 	width: 80%;
-	max-width: 600px;
-	font-size: 16px;
+	max-width: 800px;
+	font-size: 20px;
 	line-height: 1.5;
-	text-align: justify;
+	text-align: center;
 }
 
 .close {
 	color: #aaa;
-	float: right;
-	font-size: 28px;
+	float: end;
+	font-size: 50px;
 	font-weight: bold;
 }
 
@@ -1700,4 +1700,208 @@ input, select, textarea {
 
 .pho {
 	width: 20%;
+}
+
+
+.classic {
+	width: 350px;
+	margin-left: 600px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.classic:hover {
+	transform: scale(1.2);
+}
+
+.ghost {
+	width: 350px;
+	margin-left: 1430px;
+	margin-top: -200px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.ghost:hover {
+	transform: scale(1.2);
+}
+
+.vandal {
+	width: 350px;
+	margin-left: 600px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.vandal:hover {
+	transform: scale(1.2);
+}
+
+.phantom {
+	width: 350px;
+	margin-left: 1430px;
+	margin-top: -200px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.phantom:hover {
+	transform: scale(1.2);
+}
+
+.bucky {
+	width: 350px;
+	margin-left: 600px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.bucky:hover {
+	transform: scale(1.2);
+}
+
+.judge {
+	width: 350px;
+	margin-left: 1025px;
+	margin-top: -200px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.judge:hover {
+	transform: scale(1.2);
+}
+
+.shorty {
+	width: 350px;
+	margin-left: 1440px;
+	margin-top: -200px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.shorty:hover {
+	transform: scale(1.2);
+}
+
+.stinger {
+	width: 350px;
+	margin-left: 600px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.stinger:hover {
+	transform: scale(1.2);
+}
+
+.spectre {
+	width: 350px;
+	margin-left: 1440px;
+	margin-top: -200px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.spectre:hover {
+	transform: scale(1.2);
+}
+
+.marshal {
+	width: 350px;
+	margin-left: 600px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.marshal:hover {
+	transform: scale(1.2);
+}
+
+.operator {
+	width: 350px;
+	margin-left: 1440px;
+	margin-top: -200px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.5s ease-out;
+}
+
+.operator:hover {
+	transform: scale(1.2);
+}
+
+.titrevalo {
+	margin-left: 830px;
+}
+
+.pistolet{
+	margin-left: 1030px;
+}
+
+.assaut{
+	margin-top: 40px;
+	margin-left: 960px;
+}
+
+.pompe{
+	margin-top: 40px;
+	margin-left: 960px;
+}
+
+.mitraillette{
+	margin-top: 40px;
+	margin-left: 980px;
+}
+
+.sniper{
+	margin-top: 40px;
+	margin-left: 900px;
+}
+
+.valologo {
+	margin-left: 960px;
+	width: 20%;
+}
+
+.descjeu {
+	margin-left: 760px;
+}
+
+.video {
+	width: 560px;
+	height: 315px;
+	margin-left: 900px;
 }

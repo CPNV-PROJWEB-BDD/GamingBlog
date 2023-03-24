@@ -1,3 +1,4 @@
+<link rel="shortcut icon" href="https://i.scdn.co/image/ab6761610000e5ebf777c8d6f705fa1e32f75b86">
 <?php
 /**
  * @file register.php

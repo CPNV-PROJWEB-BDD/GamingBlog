@@ -1,4 +1,5 @@
-1<?php
+<link rel="shortcut icon" href="https://i.scdn.co/image/ab6761610000e5ebf777c8d6f705fa1e32f75b86">
+<?php
 /**
  * @file jeu.php
  * @brief File description
@@ -12,11 +13,11 @@ $title="ValoBlog - Armes";
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="view/content/assets/css/main.css" />
+    <img class="valologo" src="view/content/images/valorant.png">
     <title>ValoBlog - Jeu</title>
 </head>
 <body>
-<img src="view/content/images/valorant.png" width="400" alt="Image de Valorant">
-<p>Valorant est un jeu vidéo multijoueur de tir à la première personne développé et édité par Riot Games.</p>
+<p class="descjeu">Valorant est un jeu vidéo multijoueur de tir à la première personne développé et édité par Riot Games.</p>
 <h2>Gameplay</h2>
 <p>Le gameplay de Valorant est centré sur deux équipes de cinq joueurs qui s'affrontent pour remplir des objectifs. Les joueurs choisissent des personnages appelés "Agents" qui ont des compétences uniques pour les aider dans le jeu.</p>
 <h2>Classes d'Agents</h2>
@@ -30,7 +31,7 @@ $title="ValoBlog - Armes";
     <tbody>
     <tr>
         <td>Sentinelles</td>
-        <td><a onclick="openModal('Explication des sentinelles :Les Sentinelles sont des « experts de la défense qui peuvent verrouiller des zones et faire attention aux flanks en attaque et en défense. » Dans une partie faite pour le plant ou le defuse d’un Spike, ces agents sont essentiels. Chamber, Cypher et Killjoy tiennent des sites avec leurs gadgets, alors que Sage met un terme aux push et rotations avec ses ralentissements et barricades.')">Cliquer pour voir les explications</a></td>
+        <td><a onclick="openModal('Explication des sentinelles : Les Sentinelles sont des « experts de la défense qui peuvent verrouiller des zones et faire attention aux flanks en attaque et en défense. » Dans une partie faite pour le plant ou le defuse d’un Spike, ces agents sont essentiels. Chamber, Cypher et Killjoy tiennent des sites avec leurs gadgets, alors que Sage met un terme aux push et rotations avec ses ralentissements et barricades.')">Cliquer pour voir les explications</a></td>
     </tr>
     <tr>
         <td>Contrôleurs</td>
@@ -73,7 +74,8 @@ $title="ValoBlog - Armes";
 </script>
 
 <h2>Mode de jeu</h2>
-<p>Le mode de jeu principal de Valorant est appelé "Défense/Attaque". Une équipe doit défendre des sites tandis que l'autre équipe doit tenter de les prendre. Il existe également d'autres modes de jeu tels que le mode "Escalade" et le mode "Mêlée enragée".</p>
+<p>Le mode de jeu principal de Valorant est appelé "Défense/Attaque". Une équipe doit défendre des sites tandis que l'autre équipe doit tenter de les prendre.</p>
+<iframe class="video" src="https://www.youtube.com/embed/IhhjcB2ZjIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 <h2>Compétition</h2>
 <p>Valorant est également connu pour sa scène compétitive. Le jeu a un système de classement qui permet aux joueurs de s'affronter dans des matchs classés.</p>
 </body>
