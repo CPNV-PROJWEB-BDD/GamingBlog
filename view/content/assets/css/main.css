@@ -1714,15 +1714,20 @@ body.is-preload #footer {
 
 
 .Jett {
-    width: 200px;
-    margin-left: 185px;
-    height: 300px;
+    width: 300px;
+    margin-left: 280px;
+    height: 472px;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     transition: transform 0.5s ease-out;
     margin-top: 15px;
 }
+
+.HeroPage{
+    margin: 100px;
+}
+
 
 .hero {
     display: grid;
@@ -1730,39 +1735,27 @@ body.is-preload #footer {
     flex-grow: 1;
 }
 
-ul {
-    text-transform: uppercase;
-    align-items: center;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 295px;
-    transition: transform 0.5s ease-out;
-    animation: Fadetxt ease-in-out 0.5s;
-    margin-top: 30px;
-    color: white;
-}
+
 
 img {
-    width: 190px;
+    width: 300px;
 }
 
 .Phoenix {
-    width: 200px;
-    margin-left: 830px;
-    height: 300px;
+    width:  300px;
+    margin-left: 1300px;
+    height: 472px;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     transition: transform 0.5s ease-out;
-    margin-top: -297px;
+    margin-top: -472px;
 }
 
 .Brimstone {
-    width: 200px;
-    margin-left: 525px;
-    height: 300px;
+    width: 300px;
+    margin-left: 780px;
+    height: 472px;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -1770,16 +1763,7 @@ img {
     margin-top: 15px;
 }
 
-.Brimstonetxt {
-    text-align: center;
-    text-transform: uppercase;
-    justify-content: center;
 
-    transition: transform 0.5s ease-out;
-    animation: Fadetxt ease-in-out 0.5s;
-    margin-top: 30px;
-    color: white;
-}
 .hero{
 
 }
@@ -1971,7 +1955,7 @@ img {
 }
 
 .titrevalo {
-	margin-left: 830px;
+	margin-left: 550px;
 }
 
 .pistolet{
@@ -2010,28 +1994,39 @@ img {
 .video {
 	width: 560px;
 	height: 315px;
-	margin-left: 900px;
+	margin-left: 660px;
 }
 =======
     width: 20%;
 }
 .controleurs{
-    margin-left: 20px;
-}
-
-.titre{
-    margin-left: 350px;
-    text-decoration: none;
+    margin-left: 750px;
 }
 
 .valologo{
-    margin-left: 455px;
+    margin-left: 685px;
     width: 28%;
     text-decoration: none;
 }
 
 .duellistes {
-    margin-left: 465px;
+    margin-left: 760px;
 
 }
->>>>>>> feature/personnage
+
+.inités {
+    margin-left: 805px;
+}
+
+
+.sentinelles {
+    margin-left: 740px;
+}
+
+.controleurs{
+    margin-left: 730px;
+}
+.carteimg{
+    width: 800px;
+    height: 500px;
+}

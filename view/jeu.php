@@ -17,7 +17,6 @@ $title="ValoBlog - Armes";
     <title>ValoBlog - Jeu</title>
 </head>
 <body>
-<p class="descjeu">Valorant est un jeu vidéo multijoueur de tir à la première personne développé et édité par Riot Games.</p>
 <h2>Gameplay</h2>
 <p>Le gameplay de Valorant est centré sur deux équipes de cinq joueurs qui s'affrontent pour remplir des objectifs. Les joueurs choisissent des personnages appelés "Agents" qui ont des compétences uniques pour les aider dans le jeu.</p>
 <h2>Classes d'Agents</h2>

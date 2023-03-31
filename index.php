@@ -31,7 +31,7 @@ if (isset($_GET['action'])) {
           displayRegister();
           break;
       default :
-          home();
+          lost();
       }
     }
 else {

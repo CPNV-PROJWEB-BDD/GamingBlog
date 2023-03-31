@@ -1,23 +1,28 @@
 <?php
 
-function home(){
+function home()
+{
     require "view/home.php";
 }
 
-function displayRegisterForm(){
+function displayRegisterForm()
+{
     require 'view/index.php';
 }
 
-function displayRegisterPHP($GiveFormular){
+function displayRegisterPHP($GiveFormular)
+{
     require 'model/registerphp.php';
     DataRegisterPHP($GiveFormular);
 }
 
-function lost(){
-    require "view/content/lost.php";
+function lost()
+{
+    require "view/lost.php";
 }
 
-function displayArmes(){
+function displayArmes()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -25,7 +30,8 @@ function displayArmes(){
     }
 }
 
-function displayCartes(){
+function displayCartes()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -33,15 +39,14 @@ function displayCartes(){
     }
 }
 
-function displayPersonnages(){
-    try {
-        require_once "controler/navigation.php";
-    } finally {
-        require "view/personnages.php";
-    }
+function displayPersonnages()
+{
+    require "view\personnages.php";
+
 }
 
-function displayJeu(){
+function displayJeu()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -49,7 +54,8 @@ function displayJeu(){
     }
 }
 
-function displayLogin(){
+function displayLogin()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -57,7 +63,8 @@ function displayLogin(){
     }
 }
 
-function displayPassword(){
+function displayPassword()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -65,7 +72,8 @@ function displayPassword(){
     }
 }
 
-function displayRegister(){
+function displayRegister()
+{
     try {
         require_once "controler/navigation.php";
     } finally {

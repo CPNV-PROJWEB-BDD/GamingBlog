@@ -6,36 +6,39 @@
  * @version 15.03.2023
  */
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    // Récupération de l'adresse e-mail fournie par l'utilisateur
-    $email = $_POST['email'];
 
-    // Génération d'un nouveau mot de passe aléatoire
-    $new_password = generatePassword();
+use PHPMailer\PHPMailer\PHPMailer;
 
-    // Envoi de l'e-mail contenant le nouveau mot de passe
-    $headers = "From: valoblog <valobloginc@gmail.com>";
-    $subject = "Réinitialisation du mot de passe";
-    $message = "Bonjour,\n\nVous avez effectué une demande de réinitialisation de votre mot de passe. Votre nouveau mot de passe généré automatiquement ce trouve ci-dessous :\n " . $new_password . "\n\nCordialement,\nL'équipe Valoblog";
-    if (mail($email, $subject, $message, $headers)) {
-        echo "Un nouveau mot de passe a été envoyé à votre adresse e-mail.";
+$msg = '';;
+if (array_key_exists('email', $_POST)) {
+    require 'vendor/autoload.php';
+    $mail = new PHPMailer;
+    $mail->isSMTP();
+    $mail->Host = 'email-smtp.us-west-2.amazonaws.com';
+    $mail->Port = 587;
+    $mail->SMTPAuth = true;
+    $mail->Username = 'AKIA2KFJKL4OXQ6T66OK ';
+    $mail->Password = 'BC+iEUjyQyDbNigMCwnyLKCmCWK/jO4mAyqLcvujY9fW ';
+
+    $mail->setFrom('incvaloblog@gmail.com', 'Valoblog');
+    $mail->addAddress('julian.perez@cpnv.ch', 'Test');
+    if ($mail->addReplyTo($_POST['email'])) {
+        $mail->Subject = 'PHPMailer contact form';
+        $mail->isHTML(false);
+        $mail->Body = "Ceci est un test";
+
+        if (!$mail->send()) {
+            $msg = 'Sorry, something went wrong. Please try again later.';
+        } else {
+            $msg = 'Message sent! Thanks for contacting us.';
+        }
     } else {
-        echo "Une erreur est survenue lors de l'envoi du nouveau mot de passe. Veuillez réessayer plus tard.";
+        $msg = 'Share it with us!';
     }
-}
-
-function generatePassword() {
-    // Génération d'un nouveau mot de passe aléatoire
-    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    $password = "";
-    for ($i = 0; $i < 8; $i++) {
-        $password .= $chars[rand(0, strlen($chars) - 1)];
-    }
-    return $password;
 }
 
 ob_start();
-$title ="Valoblog - Mot de passe oublié";
+$title = "Valoblog - Mot de passe oublié";
 ?>
     <!DOCTYPE html>
     <html lang="fr">
@@ -52,7 +55,7 @@ $title ="Valoblog - Mot de passe oublié";
                 <h2>Mot de passe oublié</h2>
                 <div class="inputBox">
                     <label for="email">E-Mail</label>
-                    <input type="email" name="email" required="required">
+                    <input id="email" type="email" name="email" required="required">
                     <i></i>
                 </div>
                 <div class="links">
