@@ -3,9 +3,19 @@
 use PHPMailer\PHPMailer\PHPMailer;
 
 try{
-    sendMail("nicolas.glassey@cpnv.ch", "nicolas.glassey@cpnv.ch", "J. Perez", "nicolas.glassey@cpnv.ch", "J. Perez", "mon message");
+    sendMail("nicolas.glassey@cpnv.ch", "nicolas.glassey@cpnv.ch", "J. Perez", "nicolas.glassey@cpnv.ch", "J. Perez", "Bonjour, votre nouveau mot de passe est :");
 }catch (\PHPMailer\PHPMailer\Exception $ex){
     echo $ex;
+}
+
+$nouveau_mot_de_passe = '';
+
+// Liste des caractères possibles pour le mot de passe
+$caracteres = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+// Générer un mot de passe aléatoire de 8 caractères en choisissant des caractères au hasard dans la liste
+for ($i = 0; $i < 8; $i++) {
+    $nouveau_mot_de_passe .= $caracteres[rand(0, strlen($caracteres) - 1)];
 }
 
 /**

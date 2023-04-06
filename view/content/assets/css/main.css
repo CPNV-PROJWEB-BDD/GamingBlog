@@ -1796,7 +1796,7 @@ img {
 
 .classic {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 500px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1810,7 +1810,7 @@ img {
 
 .ghost {
 	width: 350px;
-	margin-left: 1430px;
+	margin-left: 1000px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1825,7 +1825,7 @@ img {
 
 .vandal {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 500px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1839,7 +1839,7 @@ img {
 
 .phantom {
 	width: 350px;
-	margin-left: 1430px;
+	margin-left: 1000px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1854,7 +1854,7 @@ img {
 
 .bucky {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 300px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1868,7 +1868,7 @@ img {
 
 .judge {
 	width: 350px;
-	margin-left: 1025px;
+	margin-left: 750px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1883,7 +1883,7 @@ img {
 
 .shorty {
 	width: 350px;
-	margin-left: 1440px;
+	margin-left: 1200px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1898,7 +1898,7 @@ img {
 
 .stinger {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 500px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1912,7 +1912,7 @@ img {
 
 .spectre {
 	width: 350px;
-	margin-left: 1440px;
+	margin-left: 1000px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1927,7 +1927,7 @@ img {
 
 .marshal {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 500px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1941,7 +1941,7 @@ img {
 
 .operator {
 	width: 350px;
-	margin-left: 1440px;
+	margin-left: 1000px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1959,27 +1959,27 @@ img {
 }
 
 .pistolet{
-	margin-left: 1030px;
+	margin-left: 760px;
 }
 
 .assaut{
 	margin-top: 40px;
-	margin-left: 960px;
+	margin-left: 700px;
 }
 
 .pompe{
 	margin-top: 40px;
-	margin-left: 960px;
+	margin-left: 700px;
 }
 
 .mitraillette{
 	margin-top: 40px;
-	margin-left: 980px;
+	margin-left: 700px;
 }
 
 .sniper{
 	margin-top: 40px;
-	margin-left: 900px;
+	margin-left: 700px;
 }
 
 .valologo {
@@ -2004,7 +2004,7 @@ img {
 }
 
 .valologo{
-    margin-left: 685px;
+    margin-left: 680px;
     width: 28%;
     text-decoration: none;
 }

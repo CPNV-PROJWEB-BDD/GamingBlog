@@ -21,7 +21,6 @@ $title="ValoBlog - Armes";
         <li>
             <h2>Bind</h2>
                 <img class="carteimg" src="view/content/images/Bind.png" alt="Image de la carte Bind">
-            <img src="view/content/images/bindTo.jpg">
             <p>Cette carte est une carte de type "Défense/Attaque" se déroulant dans une ville marocaine traditionnelle avec des
                 thèmes de mosaïques et de tapisseries. Les joueurs doivent naviguer à travers des ruelles étroites et des cours intérieures pour
                 atteindre les sites de bombe, tout en évitant les pièges et les obstacles qui se dressent sur leur chemin.</p>
