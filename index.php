@@ -9,29 +9,29 @@ if (isset($_GET['action'])) {
       case 'home' :
           home();
           break;
-      case 'displayArmes' :
-          displayArmes();
+      case 'getWeapons':
+          getWeapons();
           break;
-      case 'displayCartes' :
-          displayCartes();
+      case 'getMaps' :
+          getMaps();
           break;
-      case 'displayPersonnages' :
-          displayPersonnages();
+      case 'getCharacters' :
+          getCharacters();
           break;
-      case 'displayJeu' :
-          displayJeu();
+      case 'GetGame' :
+          GetGame();
           break;
-      case 'displayLogin':
-          displayLogin();
+      case 'login':
+          login();
           break;
-      case 'displayPassword':
-          displayPassword();
+      case 'forgetPassword':
+          forgetPassword();
           break;
-      case 'displayRegister':
-          displayRegister();
+      case 'register':
+          register();
           break;
       default :
-          home();
+          lost();
       }
     }
 else {

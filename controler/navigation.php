@@ -17,7 +17,7 @@ function lost(){
     require "view/content/lost.php";
 }
 
-function displayArmes(){
+function getWeapons(){
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -25,7 +25,7 @@ function displayArmes(){
     }
 }
 
-function displayCartes(){
+function getMaps(){
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -33,7 +33,7 @@ function displayCartes(){
     }
 }
 
-function displayPersonnages(){
+function getCharacters(){
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -41,7 +41,7 @@ function displayPersonnages(){
     }
 }
 
-function displayJeu(){
+function getGame(){
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -49,7 +49,7 @@ function displayJeu(){
     }
 }
 
-function displayLogin(){
+function login(){
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -57,7 +57,7 @@ function displayLogin(){
     }
 }
 
-function displayPassword(){
+function forgetPassword(){
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -65,7 +65,7 @@ function displayPassword(){
     }
 }
 
-function displayRegister(){
+function register(){
     try {
         require_once "controler/navigation.php";
     } finally {
