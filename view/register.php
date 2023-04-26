@@ -37,7 +37,7 @@ $title ="Valoblog - S'inscrire";
                 </div>
                 <div class="links">
                     <a href="#"></a>
-                    <a href="index.php?action=displayLogin">Se connecter</a>
+                    <a href="index.php?action=login">Se connecter</a>
                 </div>
                 <input type="submit" value="S'inscrire">
             </div>

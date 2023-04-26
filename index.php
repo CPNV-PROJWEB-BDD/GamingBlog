@@ -18,8 +18,8 @@ if (isset($_GET['action'])) {
       case 'getCharacters' :
           getCharacters();
           break;
-      case 'GetGame' :
-          GetGame();
+      case 'getGame' :
+          getGame();
           break;
       case 'login':
           login();
