@@ -22,5 +22,17 @@
     {
         "nom": "Leo",
         "mdp": "Chalut"
+    },
+    {
+        "nom": "switch@2",
+        "mdp": "Salam"
+    },
+    {
+        "nom": "julian.perez",
+        "mdp": "das"
+    },
+    {
+        "nom": "julian.perez@lol.ch",
+        "mdp": "Hello"
     }
 ]

@@ -1,6 +1,6 @@
 <?php
 
-function home()
+function Home()
 {
     require "view/home.php";
 }
@@ -16,12 +16,12 @@ function displayRegisterPHP($GiveFormular)
     DataRegisterPHP($GiveFormular);
 }
 
-function lost()
+function Lost()
 {
     require "view/lost.php";
 }
 
-function displayArmes()
+function Weapons()
 {
     try {
         require_once "controler/navigation.php";
@@ -30,7 +30,7 @@ function displayArmes()
     }
 }
 
-function displayCartes()
+function Maps()
 {
     try {
         require_once "controler/navigation.php";
@@ -39,13 +39,13 @@ function displayCartes()
     }
 }
 
-function displayPersonnages()
+function Characters()
 {
     require "view\personnages.php";
 
 }
 
-function displayJeu()
+function Game()
 {
     try {
         require_once "controler/navigation.php";
@@ -54,7 +54,7 @@ function displayJeu()
     }
 }
 
-function displayLogin()
+function Login()
 {
     try {
         require_once "controler/navigation.php";
@@ -63,7 +63,7 @@ function displayLogin()
     }
 }
 
-function displayPassword()
+function Password()
 {
     try {
         require_once "controler/navigation.php";
@@ -72,7 +72,7 @@ function displayPassword()
     }
 }
 
-function displayRegister()
+function Register()
 {
     try {
         require_once "controler/navigation.php";

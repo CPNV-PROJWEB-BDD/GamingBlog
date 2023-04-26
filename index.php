@@ -6,32 +6,32 @@ require "controler/navigation.php";
 if (isset($_GET['action'])) {
   $action = $_GET['action'];
   switch ($action) {
-      case 'home' :
-          home();
+      case 'Home':
+          Home();
           break;
-      case 'displayArmes' :
-          displayArmes();
+      case 'Weapons':
+          Weapons();
           break;
-      case 'displayCartes' :
-          displayCartes();
+      case 'Maps':
+          Maps();
           break;
-      case 'displayPersonnages' :
-          displayPersonnages();
+      case 'Characters':
+          Characters();
           break;
-      case 'displayJeu' :
-          displayJeu();
+      case 'Game':
+          Game();
           break;
-      case 'displayLogin':
-          displayLogin();
+      case 'Login':
+          Login();
           break;
-      case 'displayPassword':
-          displayPassword();
+      case 'Password':
+          Password();
           break;
-      case 'displayRegister':
-          displayRegister();
+      case 'Register':
+          Register();
           break;
-      default :
-          lost();
+      default:
+          Lost();
       }
     }
 else {
