@@ -22,5 +22,29 @@
     {
         "nom": "Leo",
         "mdp": "Chalut"
+    },
+    {
+        "nom": "julian.perez@lol.ch",
+        "mdp": "TEst"
+    },
+    {
+        "nom": "julian.perez@tal.ch",
+        "mdp": "Cestuntest"
+    },
+    {
+        "nom": "julian.perez@lol.ch",
+        "mdp": "TEst"
+    },
+    {
+        "nom": "julian.perez@lol.ch",
+        "mdp": "TEst"
+    },
+    {
+        "nom": "salut@cc.dd",
+        "mdp": "Heyy"
+    },
+    {
+        "nom": "test@tts",
+        "mdp": "dasdd"
     }
 ]

@@ -56,8 +56,8 @@ $title ="Valoblog - Mot de passe oublié";
                     <i></i>
                 </div>
                 <div class="links">
-                    <a href="index.php?action=displayLogin">Se connecter</a>
-                    <a href="index.php?action=displayRegister">S'inscrire</a>
+                    <a href="index.php?action=loginForm">Se connecter</a>
+                    <a href="index.php?action=registerForm">S'inscrire</a>
                 </div>
                 <input type="submit" value="Envoyer">
             </div>

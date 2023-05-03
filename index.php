@@ -1,7 +1,8 @@
  <?php
 
 session_start();
-require "controler/navigation.php";
+ require "controler/navigation.php";
+ require "controler/user.php";
 
 if (isset($_GET['action'])) {
   $action = $_GET['action'];
@@ -21,14 +22,14 @@ if (isset($_GET['action'])) {
       case 'getGame' :
           getGame();
           break;
-      case 'login':
-          login();
-          break;
       case 'forgetPassword':
           forgetPassword();
           break;
       case 'register':
-          register();
+          register($_POST);
+          break;
+      case 'login':
+          login($_POST);
           break;
       default :
           lost();

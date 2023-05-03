@@ -20,7 +20,7 @@ $title ="Valoblog - Se Connecter";
         <link rel="shortcut icon" href="https://i.scdn.co/image/ab6761610000e5ebf777c8d6f705fa1e32f75b86"/>
     </head>
     <body>
-    <form method="post" action="../connect.php">
+    <form method="post" action="index.php?action=login">
         <div class="box">
             <div class="form">
                 <h2>Se Connecter</h2>
