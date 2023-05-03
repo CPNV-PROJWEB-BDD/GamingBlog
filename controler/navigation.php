@@ -1,23 +1,28 @@
 <?php
 
-function home(){
+function home()
+{
     require "view/home.php";
 }
 
-function displayRegisterForm(){
+function displayRegisterForm()
+{
     require 'view/index.php';
 }
 
-function displayRegisterPHP($GiveFormular){
+function displayRegisterPHP($GiveFormular)
+{
     require 'model/registerphp.php';
     DataRegisterPHP($GiveFormular);
 }
 
-function lost(){
+function lost()
+{
     require "view/content/lost.php";
 }
 
-function displayArmes(){
+function getWeapons()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -25,7 +30,8 @@ function displayArmes(){
     }
 }
 
-function displayCartes(){
+function getMaps()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -33,7 +39,8 @@ function displayCartes(){
     }
 }
 
-function displayPersonnages(){
+function getCharacters()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -41,7 +48,8 @@ function displayPersonnages(){
     }
 }
 
-function displayJeu(){
+function getGame()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -49,15 +57,8 @@ function displayJeu(){
     }
 }
 
-function displayLogin(){
-    try {
-        require_once "controler/navigation.php";
-    } finally {
-        require "view/login.php";
-    }
-}
-
-function displayPassword(){
+function forgetPassword()
+{
     try {
         require_once "controler/navigation.php";
     } finally {
@@ -65,11 +66,6 @@ function displayPassword(){
     }
 }
 
-function displayRegister(){
-    try {
-        require_once "controler/navigation.php";
-    } finally {
-        require "view/register.php";
-    }
-}
+
+
 

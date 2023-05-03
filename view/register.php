@@ -21,7 +21,7 @@ $title ="Valoblog - S'inscrire";
         <link rel="shortcut icon" href="https://i.scdn.co/image/ab6761610000e5ebf777c8d6f705fa1e32f75b86">
     </head>
     <body>
-    <form method="post" action="../submit.php" target="_blank">
+    <form method="post" action="index.php?action=register" target="_blank">
         <div class="box">
             <div class="form">
                 <h2>S'inscrire</h2>
@@ -37,7 +37,7 @@ $title ="Valoblog - S'inscrire";
                 </div>
                 <div class="links">
                     <a href="#"></a>
-                    <a href="index.php?action=displayLogin">Se connecter</a>
+                    <a href="index.php?action=login">Se connecter</a>
                 </div>
                 <input type="submit" value="S'inscrire">
             </div>

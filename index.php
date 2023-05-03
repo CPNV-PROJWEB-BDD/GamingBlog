@@ -1,7 +1,8 @@
  <?php
 
 session_start();
-require "controler/navigation.php";
+ require "controler/navigation.php";
+ require "controler/user.php";
 
 if (isset($_GET['action'])) {
   $action = $_GET['action'];
@@ -9,29 +10,29 @@ if (isset($_GET['action'])) {
       case 'home' :
           home();
           break;
-      case 'displayArmes' :
-          displayArmes();
+      case 'getWeapons':
+          getWeapons();
           break;
-      case 'displayCartes' :
-          displayCartes();
+      case 'getMaps' :
+          getMaps();
           break;
-      case 'displayPersonnages' :
-          displayPersonnages();
+      case 'getCharacters' :
+          getCharacters();
           break;
-      case 'displayJeu' :
-          displayJeu();
+      case 'getGame' :
+          getGame();
           break;
-      case 'displayLogin':
-          displayLogin();
+      case 'forgetPassword':
+          forgetPassword();
           break;
-      case 'displayPassword':
-          displayPassword();
+      case 'register':
+          register($_POST);
           break;
-      case 'displayRegister':
-          displayRegister();
+      case 'login':
+          login($_POST);
           break;
       default :
-          home();
+          lost();
       }
     }
 else {
