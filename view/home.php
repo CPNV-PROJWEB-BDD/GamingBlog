@@ -37,11 +37,11 @@ $title="ValoBlog - Accueil";
     </div>
     <nav>
         <ul>
-            <li><a href="index.php?action=displayJeu">Jeu</a></li>
-            <li><a href="index.php?action=displayPersonnages">Personnages</a></li>
-            <li><a href="index.php?action=displayCartes">Cartes</a></li>
-            <li><a href="index.php?action=displayArmes">Armes</a></li>
-            <li><a href="index.php?action=displayLogin">Se Connecter</a></li>
+            <li><a href="index.php?action=getGame">Jeu</a></li>
+            <li><a href="index.php?action=getCharacters">Personnages</a></li>
+            <li><a href="index.php?action=getMaps">Cartes</a></li>
+            <li><a href="index.php?action=getWeapons">Armes</a></li>
+            <li><a href="index.php?action=login">Se Connecter</a></li>
             <!--<li><a href="#elements">Elements</a></li>-->
         </ul>
     </nav>
@@ -58,7 +58,7 @@ $title="ValoBlog - Accueil";
 
 
 <?php
-  $content = ob_get_clean();
-  require "gabarit.php";
-  ?>
+$content = ob_get_clean();
+require "gabarit.php";
+?>
 </html>

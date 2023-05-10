@@ -34,5 +34,9 @@
     {
         "nom": "julian.perez@lol.ch",
         "mdp": "Hello"
+    },
+    {
+        "nom": "switch@2",
+        "mdp": "testttt"
     }
 ]

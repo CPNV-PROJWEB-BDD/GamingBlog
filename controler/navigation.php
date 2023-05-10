@@ -1,6 +1,6 @@
 <?php
 
-function Home()
+function home()
 {
     require "view/home.php";
 }
@@ -16,12 +16,12 @@ function displayRegisterPHP($GiveFormular)
     DataRegisterPHP($GiveFormular);
 }
 
-function Lost()
+function lost()
 {
-    require "view/lost.php";
+    require "view/content/lost.php";
 }
 
-function Weapons()
+function getWeapons()
 {
     try {
         require_once "controler/navigation.php";
@@ -30,7 +30,7 @@ function Weapons()
     }
 }
 
-function Maps()
+function getMaps()
 {
     try {
         require_once "controler/navigation.php";
@@ -39,13 +39,16 @@ function Maps()
     }
 }
 
-function Characters()
+function getCharacters()
 {
-    require "view\personnages.php";
-
+    try {
+        require_once "controler/navigation.php";
+    } finally {
+        require "view/personnages.php";
+    }
 }
 
-function Game()
+function getGame()
 {
     try {
         require_once "controler/navigation.php";
@@ -54,16 +57,7 @@ function Game()
     }
 }
 
-function Login()
-{
-    try {
-        require_once "controler/navigation.php";
-    } finally {
-        require "view/login.php";
-    }
-}
-
-function Password()
+function forgetPassword()
 {
     try {
         require_once "controler/navigation.php";
@@ -71,13 +65,3 @@ function Password()
         require "view/password.php";
     }
 }
-
-function Register()
-{
-    try {
-        require_once "controler/navigation.php";
-    } finally {
-        require "view/register.php";
-    }
-}
-
