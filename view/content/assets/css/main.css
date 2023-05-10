@@ -1714,15 +1714,20 @@ body.is-preload #footer {
 
 
 .Jett {
-    width: 200px;
-    margin-left: 185px;
-    height: 300px;
+    width: 300px;
+    margin-left: 280px;
+    height: 472px;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     transition: transform 0.5s ease-out;
     margin-top: 15px;
 }
+
+.HeroPage{
+    margin: 100px;
+}
+
 
 .hero {
     display: grid;
@@ -1730,39 +1735,27 @@ body.is-preload #footer {
     flex-grow: 1;
 }
 
-ul {
-    text-transform: uppercase;
-    align-items: center;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 250px;
-    margin-right: 295px;
-    transition: transform 0.5s ease-out;
-    animation: Fadetxt ease-in-out 0.5s;
-    margin-top: 30px;
-    color: white;
-}
+
 
 img {
-    width: 190px;
+    width: 300px;
 }
 
 .Phoenix {
-    width: 200px;
-    margin-left: 830px;
-    height: 300px;
+    width:  300px;
+    margin-left: 1300px;
+    height: 472px;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     transition: transform 0.5s ease-out;
-    margin-top: -297px;
+    margin-top: -472px;
 }
 
 .Brimstone {
-    width: 200px;
-    margin-left: 525px;
-    height: 300px;
+    width: 300px;
+    margin-left: 780px;
+    height: 472px;
     border: 2px solid white;
     border-radius: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
@@ -1770,16 +1763,7 @@ img {
     margin-top: 15px;
 }
 
-.Brimstonetxt {
-    text-align: center;
-    text-transform: uppercase;
-    justify-content: center;
 
-    transition: transform 0.5s ease-out;
-    animation: Fadetxt ease-in-out 0.5s;
-    margin-top: 30px;
-    color: white;
-}
 .hero{
 
 }
@@ -1812,7 +1796,7 @@ img {
 
 .classic {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 500px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1826,7 +1810,7 @@ img {
 
 .ghost {
 	width: 350px;
-	margin-left: 1430px;
+	margin-left: 1000px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1841,7 +1825,7 @@ img {
 
 .vandal {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 500px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1855,7 +1839,7 @@ img {
 
 .phantom {
 	width: 350px;
-	margin-left: 1430px;
+	margin-left: 1000px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1870,7 +1854,7 @@ img {
 
 .bucky {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 300px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1884,7 +1868,7 @@ img {
 
 .judge {
 	width: 350px;
-	margin-left: 1025px;
+	margin-left: 750px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1899,7 +1883,7 @@ img {
 
 .shorty {
 	width: 350px;
-	margin-left: 1440px;
+	margin-left: 1200px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1914,7 +1898,7 @@ img {
 
 .stinger {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 500px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1928,7 +1912,7 @@ img {
 
 .spectre {
 	width: 350px;
-	margin-left: 1440px;
+	margin-left: 1000px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1943,7 +1927,7 @@ img {
 
 .marshal {
 	width: 350px;
-	margin-left: 600px;
+	margin-left: 500px;
 	height: 200px;
 	border: 2px solid white;
 	border-radius: 10px;
@@ -1957,7 +1941,7 @@ img {
 
 .operator {
 	width: 350px;
-	margin-left: 1440px;
+	margin-left: 1000px;
 	margin-top: -200px;
 	height: 200px;
 	border: 2px solid white;
@@ -1971,31 +1955,31 @@ img {
 }
 
 .titrevalo {
-	margin-left: 830px;
+	margin-left: 550px;
 }
 
 .pistolet{
-	margin-left: 1030px;
+	margin-left: 760px;
 }
 
 .assaut{
 	margin-top: 40px;
-	margin-left: 960px;
+	margin-left: 700px;
 }
 
 .pompe{
 	margin-top: 40px;
-	margin-left: 960px;
+	margin-left: 700px;
 }
 
 .mitraillette{
 	margin-top: 40px;
-	margin-left: 980px;
+	margin-left: 700px;
 }
 
 .sniper{
 	margin-top: 40px;
-	margin-left: 900px;
+	margin-left: 700px;
 }
 
 .valologo {
@@ -2010,28 +1994,39 @@ img {
 .video {
 	width: 560px;
 	height: 315px;
-	margin-left: 900px;
+	margin-left: 660px;
 }
 =======
     width: 20%;
 }
 .controleurs{
-    margin-left: 20px;
-}
-
-.titre{
-    margin-left: 350px;
-    text-decoration: none;
+    margin-left: 750px;
 }
 
 .valologo{
-    margin-left: 455px;
+    margin-left: 680px;
     width: 28%;
     text-decoration: none;
 }
 
 .duellistes {
-    margin-left: 465px;
+    margin-left: 760px;
 
 }
->>>>>>> feature/personnage
+
+.inités {
+    margin-left: 805px;
+}
+
+
+.sentinelles {
+    margin-left: 740px;
+}
+
+.controleurs{
+    margin-left: 730px;
+}
+.carteimg{
+    width: 800px;
+    height: 500px;
+}

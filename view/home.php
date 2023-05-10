@@ -58,7 +58,7 @@ $title="ValoBlog - Accueil";
 
 
 <?php
-  $content = ob_get_clean();
-  require "gabarit.php";
-  ?>
+$content = ob_get_clean();
+require "gabarit.php";
+?>
 </html>
