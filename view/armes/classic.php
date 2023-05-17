@@ -19,7 +19,6 @@
     <h2>Caractéristiques</h2>
     <ul>
         <li>Type : Pistolet semi-automatique</li>
-        <li>Origine : Inconnue</li>
         <li>Chargeur : 12 balles</li>
         <li>Coût : Gratuit</li>
     </ul>

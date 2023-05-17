@@ -20,7 +20,6 @@
 <h2>Caractéristiques</h2>
 <ul>
     <li>Type : Fusil à pompe</li>
-    <li>Origine : Inconnue</li>
     <li>Capacité du chargeur : 7 cartouches</li>
     <li>Coût : 1 500 crédits</li>
 </ul>

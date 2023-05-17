@@ -19,7 +19,6 @@
 <h2>Caractéristiques</h2>
 <ul>
     <li>Type : Mitraillette automatique</li>
-    <li>Origine : Inconnue</li>
     <li>Chargeur : 20 balles</li>
     <li>Coût : 1100 crédits</li>
 </ul>

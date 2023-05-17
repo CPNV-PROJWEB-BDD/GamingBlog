@@ -22,7 +22,6 @@
 <h2>Caractéristiques</h2>
 <ul>
     <li>Type : Fusil de sniper</li>
-    <li>Origine : Inconnue</li>
     <li>Chargeur : 5 balles</li>
     <li>Coût : 4 500 crédits</li>
 </ul>

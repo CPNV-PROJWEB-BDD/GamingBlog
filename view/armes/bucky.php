@@ -19,7 +19,6 @@
 <h2>Caractéristiques</h2>
 <ul>
     <li>Type : Fusil à pompe</li>
-    <li>Origine : Inconnue</li>
     <li>Capacité : 5 balles</li>
     <li>Coût : 900 crédits</li>
 </ul>

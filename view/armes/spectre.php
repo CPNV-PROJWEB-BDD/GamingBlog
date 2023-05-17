@@ -20,7 +20,6 @@
 <h2>Caractéristiques</h2>
 <ul>
     <li>Type : Arme automatique</li>
-    <li>Origine : Inconnue</li>
     <li>Capacité : 30 balles</li>
     <li>Coût : 1 600 crédits</li>
 </ul>

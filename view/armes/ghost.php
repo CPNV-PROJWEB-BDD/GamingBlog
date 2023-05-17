@@ -20,7 +20,6 @@
 <h2>Caractéristiques</h2>
 <ul>
     <li>Type : Pistolet semi-automatique</li>
-    <li>Origine : Inconnue</li>
     <li>Chargeur : 15 balles</li>
     <li>Coût : 500 crédits</li>
 </ul>

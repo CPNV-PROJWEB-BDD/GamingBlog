@@ -19,7 +19,6 @@
 <h2>Caractéristiques</h2>
 <ul>
     <li>Type : Fusil d'assaut automatique</li>
-    <li>Origine : Inconnue</li>
     <li>Chargeur : 25 balles</li>
     <li>Coût : 2900 crédits</li>
 </ul>

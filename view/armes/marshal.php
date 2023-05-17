@@ -21,7 +21,6 @@
 <h2>Caractéristiques</h2>
 <ul>
     <li>Type : Pistolet à double canon</li>
-    <li>Origine : Inconnue</li>
     <li>Chargeur : 4 balles (2 balles par canon)</li>
     <li>Coût : 1 100 crédits</li>
 </ul>
