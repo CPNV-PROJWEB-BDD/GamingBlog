@@ -1,8 +1,8 @@
 <?php
 
 session_start();
-require "controler/navigation.php";
-require "controler/user.php";
+require "controller/navigation.php";
+require "controller/user.php";
 
 if (isset($_GET['action'])) {
     $action = $_GET['action'];
@@ -10,17 +10,17 @@ if (isset($_GET['action'])) {
         case 'home' :
             home();
             break;
-        case 'getWeapons':
-            getWeapons();
+        case 'weapons':
+            weapons($_GET);
             break;
-        case 'getMaps' :
-            getMaps();
+        case 'maps' :
+            maps();
             break;
-        case 'getCharacters' :
-            getCharacters();
+        case 'characters' :
+            characters($_GET);
             break;
-        case 'getGame' :
-            getGame();
+        case 'game' :
+            game();
             break;
         case 'forgetPassword':
             forgetPassword();
