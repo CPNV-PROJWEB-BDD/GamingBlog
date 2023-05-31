@@ -3,6 +3,8 @@
 session_start();
 require "controller/navigation.php";
 require "controller/user.php";
+require "controller/weapons.php";
+require "controller/characters.php";
 
 if (isset($_GET['action'])) {
     $action = $_GET['action'];
@@ -11,13 +13,13 @@ if (isset($_GET['action'])) {
             home();
             break;
         case 'weapons':
-            weapons($_GET);
+            weapons();
             break;
         case 'maps' :
             maps();
             break;
         case 'characters' :
-            characters($_GET);
+            characters();
             break;
         case 'game' :
             game();

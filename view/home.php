@@ -37,10 +37,10 @@ $title="ValoBlog - Accueil";
     </div>
     <nav>
         <ul>
-            <li><a href="index.php?action=getGame">Jeu</a></li>
-            <li><a href="index.php?action=getCharacters">Personnages</a></li>
-            <li><a href="index.php?action=getMaps">Cartes</a></li>
-            <li><a href="index.php?action=getWeapons">Armes</a></li>
+            <li><a href="index.php?action=game">Jeu</a></li>
+            <li><a href="index.php?action=characters">Personnages</a></li>
+            <li><a href="index.php?action=maps">Cartes</a></li>
+            <li><a href="index.php?action=weapons">Armes</a></li>
             <li><a href="index.php?action=login">Se Connecter</a></li>
             <!--<li><a href="#elements">Elements</a></li>-->
         </ul>

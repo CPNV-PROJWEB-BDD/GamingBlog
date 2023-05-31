@@ -68,3 +68,9 @@ function register($register)
         require "view/register.php";
     }
 }
+
+function displayRegisterPHP($GiveFormular)
+{
+    require 'model/registerphp.php';
+    DataRegisterPHP($GiveFormular);
+}
