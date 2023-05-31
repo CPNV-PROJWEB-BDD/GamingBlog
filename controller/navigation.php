@@ -15,7 +15,7 @@ function maps()
     try {
         require_once "controller/navigation.php";
     } finally {
-        require "view/cartes.php";
+        require "view/maps.php";
     }
 }
 
@@ -24,7 +24,7 @@ function game()
     try {
         require_once "controller/navigation.php";
     } finally {
-        require "view/jeu.php";
+        require "view/game.php";
     }
 }
 

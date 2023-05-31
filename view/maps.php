@@ -1,7 +1,7 @@
 <link rel="shortcut icon" href="https://i.scdn.co/image/ab6761610000e5ebf777c8d6f705fa1e32f75b86">
 <?php
 /**
- * @file cartes.php
+ * @file maps.php
  * @brief File description
  * @author Created by Matteo.DA-CUNHA
  * @version 08.03.2023

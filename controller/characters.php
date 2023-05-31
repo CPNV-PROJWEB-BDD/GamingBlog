@@ -2,5 +2,5 @@
 
 function characters()
 {
-        require "view/personnages.php";
+        require "view/characters.php";
 }
