@@ -79,3 +79,6 @@ fabric.properties
 
 # Composer
 /vendor
+
+# Office
+docs/~$$UseCase_Valoblog.~vsdx
