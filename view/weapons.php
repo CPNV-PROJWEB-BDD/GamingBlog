@@ -35,7 +35,7 @@ $title="ValoBlog - Armes";
             var image = document.getElementById("classic");
             image.addEventListener("click", function() {
                 // On ouvre une nouvelle page avec l'URL souhaitée
-                window.open("view/armes/classic.php");
+               window.open("view/armes/classic.php");
             });
 
             var image = document.getElementById("ghost");

@@ -1,34 +1,19 @@
 <?php
 function login($login)
 {
-    if (isset($login["nom"], $login["mdp"])) {
+    if (isset($login["email"], $login["mdp"])) {
         // Récupération des données du formulaire
-        $nom = $login["nom"];
+        $email = $login["email"];
         $mdp = $login["mdp"];
 
-        // Création d'un tableau avec les données
-        $data = array(
-            "nom" => $nom,
-            "mdp" => $mdp,
-        );
-
-        // Chargement du contenu du fichier JSON existant
-        $file = "data.json";
-        $current_data = file_get_contents($file);
-
-        // Décodage du JSON en un tableau PHP
-        $current_data = json_decode($current_data, true);
-
-        // Ajout des nouvelles données au tableau
-        $current_data[] = $data;
-
-        // Encodage du tableau en JSON
-        $json_data = json_encode($current_data, JSON_PRETTY_PRINT);
-
-        // Stockage du JSON dans le fichier
-        file_put_contents($file, $json_data);
-
-        header("Location: index.php");
+        require_once "model/manager.php";
+        if (IsLoginCorrect($email, $mdp)) {
+            createSession($email, $mdp);
+            require "view/home.php";
+        } else {
+            $errorMessage = "L'email ou le mot de passe est incorrect. Veuillez réessayer.";
+            require "view/login.php";
+        }
     } else {
         require "view/login.php";
     }
@@ -36,34 +21,24 @@ function login($login)
 
 function register($register)
 {
-    if (isset($register["nom"], $register["mdp"])) {
+    if (isset($register["email"], $register["mdp"])) {
 // Récupération des données du formulaire
-        $nom = $register["nom"];
+        $email = $register["email"];
         $mdp = $register["mdp"];
 
-// Création d'un tableau avec les données
-        $data = array(
-            "nom" => $nom,
-            "mdp" => $mdp,
-        );
+        require_once "model/manager.php";
+        if (verifyInformation($email)) {
+            if (getRegisterData($email, $mdp)) {
+                createSession($email, $mdp);
+            } else {
 
-// Chargement du contenu du fichier JSON existant
-        $file = "data.json";
-        $current_data = file_get_contents($file);
+            }
 
-// Décodage du JSON en un tableau PHP
-        $current_data = json_decode($current_data, true);
-
-// Ajout des nouvelles données au tableau
-        $current_data[] = $data;
-
-// Encodage du tableau en JSON
-        $json_data = json_encode($current_data, JSON_PRETTY_PRINT);
-
-// Stockage du JSON dans le fichier
-        file_put_contents($file, $json_data);
-
-        header("Location: index.php");
+            header("Location: index.php");
+        } else {
+            $errorMessage = "L'email entré existe déjà.";
+            require "view/register.php";
+        }
     } else {
         require "view/register.php";
     }

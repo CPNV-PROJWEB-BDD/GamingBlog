@@ -36,3 +36,13 @@ function forgetPassword()
         require "view/password.php";
     }
 }
+
+function logout()
+{
+    try {
+        require "model/logout.php";
+        sessionEnd();
+    } finally {
+        require "view/home.php";
+    }
+}

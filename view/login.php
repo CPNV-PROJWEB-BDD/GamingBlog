@@ -12,6 +12,7 @@ $title ="Valoblog - Se Connecter";
 ?>
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Se connecter</title>
@@ -19,13 +20,16 @@ $title ="Valoblog - Se Connecter";
     <link rel="shortcut icon" href="https://i.scdn.co/image/ab6761610000e5ebf777c8d6f705fa1e32f75b86"/>
 </head>
 <body>
+<?php if (isset($errorMessage)) :?>
+<span style="color: #dc3d4b"><?=$errorMessage?></span>
+<?php endif?>
 <form method="post" action="index.php?action=login">
     <div class="box">
         <div class="form">
             <h2>Se Connecter</h2>
             <div class="inputBox">
-                <label for="nom">E-Mail</label>
-                <input type="email" id="nom" name="nom" required="required">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email" required="required">
                 <i></i>
             </div>
             <div class="inputBox">
@@ -34,7 +38,7 @@ $title ="Valoblog - Se Connecter";
                 <i></i>
             </div>
             <div class="links">
-                <a href="index.php?action=forgetPassword">Mot de passe oublié ?</a>
+                <a href="index.php?action=forgetPassword">Mot de passe oublié </a>
                 <a href="index.php?action=register">S'inscrire</a>
             </div>
             <input type="submit" value="Login">

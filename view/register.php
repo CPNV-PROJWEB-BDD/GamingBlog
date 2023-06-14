@@ -20,13 +20,16 @@ $title ="Valoblog - S'inscrire";
     <link rel="shortcut icon" href="https://i.scdn.co/image/ab6761610000e5ebf777c8d6f705fa1e32f75b86">
 </head>
 <body>
+<?php if (isset($errorMessage)) :?>
+    <span style="color: #dc3d4b"><?=$errorMessage?></span>
+<?php endif?>
 <form method="post" action="index.php?action=register" target="_blank">
     <div class="box">
         <div class="form">
             <h2>S'inscrire</h2>
             <div class="inputBox">
-                <label for="nom">E-Mail</label>
-                <input type="text" id="nom" name="nom" required="required">
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" name="email" required="required">
                 <i></i>
             </div>
             <div class="inputBox">

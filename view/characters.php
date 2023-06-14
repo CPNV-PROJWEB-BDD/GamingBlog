@@ -17,7 +17,6 @@ $title = "ValoBlog - Armes";
 </head>
 <body>
 <header>
-    <a href="index.php""><img id="valologo" class="valologo" src="view/content/images/valorant.png"></a>
     <h1 class="titrevalo">Les agents de Valorant</h1>
 </header>
 <main>
