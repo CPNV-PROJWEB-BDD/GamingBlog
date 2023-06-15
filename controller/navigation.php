@@ -46,3 +46,4 @@ function logout()
         require "view/home.php";
     }
 }
+

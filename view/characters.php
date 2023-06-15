@@ -101,5 +101,6 @@ $title = "ValoBlog - Armes";
                             window.open("view/personnage/brimstone.php");
                         });
                     </script>
-
-
+<?php
+$content = ob_get_clean();
+require "gabarit.php";

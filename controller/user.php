@@ -12,12 +12,11 @@ function login($login)
             require "view/home.php";
         } else {
             $errorMessage = "L'email ou le mot de passe est incorrect. Veuillez réessayer.";
-            require "view/login.php";
+            require_once "view/login.php";
         }
-    } else {
-        require "view/login.php";
-    }
+    } else require_once "view/login.php";
 }
+
 
 function register($register)
 {

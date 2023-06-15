@@ -1,6 +1,6 @@
 <?php
 ?>
-<link rel="stylesheet" href="content/assets/css/icon_login.css">
+<link rel="stylesheet" href="content/assets/css/menu.css">
 
 <div class="contentArea">
 
@@ -13,6 +13,17 @@
                         Connecté en tant que : <?= $_SESSION["email"] ?>
                     </div>
                 </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.php">Accueil</a></li>
+                        <li><a href="index.php?action=game">Jeu</a></li>
+                        <li><a href="index.php?action=characters">Personnages</a></li>
+                        <li><a href="index.php?action=maps">Cartes</a></li>
+                        <li><a href="index.php?action=weapons">Armes</a></li>
+                        <li><a href="index.php?action=weapons">Armes</a></li>
+                    </ul>
+                </nav>
             <?php endif?>
 
             <!--__________CONTENU__________-->

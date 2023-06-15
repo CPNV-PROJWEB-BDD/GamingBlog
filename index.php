@@ -1,10 +1,10 @@
 <?php
 
 session_start();
-require "controller/navigation.php";
-require "controller/user.php";
-require "controller/weapons.php";
-require "controller/characters.php";
+require_once "controller/navigation.php";
+require_once "controller/user.php";
+require_once "controller/weapons.php";
+require_once "controller/characters.php";
 
 if (isset($_GET['action'])) {
     $action = $_GET['action'];
