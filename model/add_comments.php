@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $pseudo = $_SESSION["email"];
+    $pseudo = $_SESSION['email'];
     $message = $_POST['message'];
     $date = date('Y-m-d H:i:s');
 
