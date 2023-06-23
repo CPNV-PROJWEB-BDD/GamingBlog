@@ -21,9 +21,6 @@ $title="ValoBlog - Commentaires";
 <div class="container">
     <h1>Ajouter un commentaire</h1>
     <form method="POST" action="../model/add_comments.php">
-        <label for="pseudo">Pseudo:</label>
-        <input type="text" name="pseudo" id="pseudo" required>
-        <br>
         <label for="message">Message:</label>
         <textarea name="message" id="message" required></textarea>
         <br>
