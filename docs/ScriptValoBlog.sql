@@ -52,7 +52,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `mydb`.`game cards`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `valoblog`.`game cards` (
+CREATE TABLE IF NOT EXISTS `valoblog`.`gamecards` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `description` VARCHAR(1000) NULL,
