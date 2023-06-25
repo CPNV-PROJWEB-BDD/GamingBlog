@@ -13,7 +13,7 @@ $title="ValoBlog - Commentaires";
 <html>
 <head>
     <title>ValoBlog - Commentaires</title>
-    <link rel="stylesheet" type="text/css" href="../view/content/assets/css/comments.css">
+    <link rel="stylesheet" type="text/css" href="../content/assets/css/comments.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../view/content/assets/js/comments.js"></script>
 </head>
