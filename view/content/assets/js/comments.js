@@ -35,7 +35,7 @@ $(document).ready(function() {
 
 function chargerCommentaires() {
     $.ajax({
-        url: 'afficher_commentaires.php',
+        url: '../view/display_comments.php',
         type: 'GET',
         success: function(data) {
             $('#commentaires').html(data);
