@@ -6,7 +6,7 @@
  * @version 08.06.2023
  */
 
-require "dbConnector.php";
+require "dbconnector.php";
 
 function verifyInformation($email)
 {

@@ -14,13 +14,13 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema mydb
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `valoblog` DEFAULT CHARACTER SET utf8 ;
+USE `valoblog`;
 
 -- -----------------------------------------------------
 -- Table `mydb`.`characters`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`characters` (
+CREATE TABLE IF NOT EXISTS `valoblog`.`characters` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `description` VARCHAR(1000) NULL,
@@ -35,7 +35,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `mydb`.`weapons`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`weapons` (
+CREATE TABLE IF NOT EXISTS `valoblog`.`weapons` (
   `id` INT NOT NULL,
   `name` VARCHAR(45) NULL,
   `kind` VARCHAR(45) NULL,
@@ -52,7 +52,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `mydb`.`game cards`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`game cards` (
+CREATE TABLE IF NOT EXISTS `valoblog`.`gamecards` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NULL,
   `description` VARCHAR(1000) NULL,
@@ -64,7 +64,7 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 -- Table `mydb`.`members`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`members` (
+CREATE TABLE IF NOT EXISTS `valoblog`.`members` (
   `id` INT NOT NULL,
   `email` VARCHAR(320) NULL,
   `password` VARCHAR(128) NULL,
@@ -76,3 +76,7 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+CREATE USER 'valoblog'@localhost IDENTIFIED BY 'Pa$$w0rd';
+GRANT SELECT,INSERT,DELETE,UPDATE ON valoblog.* TO 'valoblog'@localhost IDENTIFIED BY 'Pa$$w0rd';

@@ -1,4 +1,4 @@
-INSERT INTO characters (NAME, description, skill, history, quotes)
+INSERT INTO valoblog.characters (NAME, description, skill, history, quotes)
 VALUES ("Jett", "Jett est un personnage jouable dans le jeu vidéo Valorant de Riot Games. Elle est connue pour son agilité et sa capacité à se déplacer rapidement sur le terrain. Jett est également équipée d'un assortiment de couteaux et d'un pistolet à air comprimé pour affronter ses ennemis.", 
 "Updraft - Jett saute dans les airs et peut se déplacer dans n'importe quelle direction / "
 "Tailwind - Jett se déplace rapidement dans la direction dans laquelle elle est en train de courir / "
@@ -52,10 +52,10 @@ VALUES ("Jett", "Jett est un personnage jouable dans le jeu vidéo Valorant de R
 "Stimulant - Brimstone lâche une caisse de munitions qui permet à ses coéquipiers de recharger plus rapidement / "
 "Orbital Strike - Brimstone utilise son écran tactique pour appeler une frappe orbitale sur la zone sélectionnée",
 "Brimstone est un ancien Marine américain qui a rejoint l'équipe VALORANT. Il est un stratège tactique qui utilise ses compétences pour aider son équipe à remporter la victoire. Brimstone est également connu pour sa personnalité calme et posée, ce qui inspire la confiance de ses coéquipiers.",
-"Je suis toujours prêt à partir en mission. / La victoire ne vient pas de nulle part. Elle est le résultat de la préparation et de l'exécution.")
+"Je suis toujours prêt à partir en mission. / La victoire ne vient pas de nulle part. Elle est le résultat de la préparation et de l'exécution.");
 
 
-INSERT INTO gamecards (NAME, description)
+INSERT INTO valoblog.gamecards (NAME, description)
 VALUES ("Bind", "Cette carte est une carte de type Défense/Attaque se déroulant dans une ville marocaine traditionnelle avec des thèmes de mosaïques et de tapisseries. Les joueurs doivent naviguer à travers des ruelles étroites et des cours intérieures pour atteindre les sites de bombe, tout en évitant les pièges et les obstacles qui se dressent sur leur chemin."),
 ("Haven", "Cette carte est une carte de type Défense/Attaque se déroulant dans une ville portuaire avec des thèmes de pierre et de béton. Les joueurs commencent dans des zones de spawn opposées et doivent se déplacer vers les sites de bombe situés dans la ville. La carte offre une variété de couloirs et de zones ouvertes, ce qui permet aux joueurs d'adopter différentes stratégies en fonction de leur style de jeu."),
 
@@ -73,10 +73,10 @@ VALUES ("Bind", "Cette carte est une carte de type Défense/Attaque se déroulan
 
 ("Fracture", "Cette carte est une carte de type Défense/Attaque se déroulant dans un environnement désertique avec des thèmes de pierre et de métal. Les joueurs sont répartis en deux équipes : les défenseurs qui protègent une zone de bombe et les attaquants qui cherchent à la récupérer. La carte est conçue avec des chemins multiples et des passages secrets, ce qui permet aux joueurs de se faufiler derrière les ennemis pour gagner un avantage."),
 
-("The Range", "Cette carte est une carte d'entraînement qui permet aux joueurs de pratiquer leurs compétences de tir et de se familiariser avec les différents types d'armes disponibles dans le jeu. Elle est conçue pour ressembler à un stand de tir et offre des cibles mobiles ainsi que des obstacles pour les joueurs à surmonter.")
+("The Range", "Cette carte est une carte d'entraînement qui permet aux joueurs de pratiquer leurs compétences de tir et de se familiariser avec les différents types d'armes disponibles dans le jeu. Elle est conçue pour ressembler à un stand de tir et offre des cibles mobiles ainsi que des obstacles pour les joueurs à surmonter.");
 
 
-INSERT INTO weapons (name, kind, charger, cost, damageLeg, damageBody, damageHead)
+INSERT INTO valoblog.weapons (name, kind, charger, cost, damageLeg, damageBody, damageHead)
 VALUES ("Classic", "Pistolet semi-automatique", 12, 0, 22, 26, 78),
 ("Ghost", "Pistolet semi-automatique", 15, 500, 26, 30, 105),
 ("Vandal", "Fusil d'assaut automatique", 25, 2900, 43, 40, 160),
@@ -87,4 +87,4 @@ VALUES ("Classic", "Pistolet semi-automatique", 12, 0, 22, 26, 78),
 ("Stinger", "Mitraillette automatique", 20, 1100, 23, 27, 67),
 ("Spectre", "Mitraillette automatique", 30, 1600, 22, 26, 78),
 ("Marshal", "Fusil de précision", 5, 950, 85, 101, 202),
-("Operator", "Fusil de précision", 5, 4500, 127, 150, 255)
+("Operator", "Fusil de précision", 5, 4500, 127, 150, 255);
