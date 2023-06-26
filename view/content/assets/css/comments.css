@@ -1,0 +1,45 @@
+body {
+    background-color: #2A2928;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #f3f3f3;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f3f3f3;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #1f2933;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    background-color: #e62b43;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.commentaire p strong {
+    color: #f7931e;
+}

@@ -38,12 +38,14 @@ $title="ValoBlog - Accueil";
     <nav>
         <ul>
             <?php if(isset($_SESSION["email"])) :?>
+                <li><a href="index.php?action=comments">Commentaires</a></li>
                 <li><a href="index.php?action=game">Jeu</a></li>
                 <li><a href="index.php?action=characters">Personnages</a></li>
                 <li><a href="index.php?action=maps">Cartes</a></li>
                 <li><a href="index.php?action=weapons">Armes</a></li>
                 <li><a href="index.php?action=logout">Se déconnecter</a></li>
             <?php else :?>
+                <li><a href="index.php?action=login">Commentaires</a></li>
                 <li><a href="index.php?action=login">Jeu</a></li>
                 <li><a href="index.php?action=login">Personnages</a></li>
                 <li><a href="index.php?action=login">Cartes</a></li>

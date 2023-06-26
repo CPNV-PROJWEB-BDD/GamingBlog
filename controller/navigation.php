@@ -47,3 +47,12 @@ function logout()
     }
 }
 
+function comments()
+{
+    try {
+        require_once "view/display_comments.php";
+    } finally {
+        require "view/comments.php";
+    }
+}
+
